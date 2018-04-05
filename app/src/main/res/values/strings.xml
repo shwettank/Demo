@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">MerakiCard</string>
+
+    <!--Meraki Card Registration Activity-->
+    <string name="enter_meraki_card_code_hint">XXXX XXXX XXXX XXXX</string>
+    <string name="enter_meraki_card_code">Enter 16-digit card number</string>
+    <string name="enter_mobile_no">Enter your mobile number</string>
+    <string name="sent_otp_txt">We have sent OTP on your mobile number</string>
+    <string name="btn_generate_otp">Generate OTP</string>
+    <string name="enter_otp">Enter OTP here</string>
+    <string name="resend_otp_txt">Didn\&apos;t get the OTP?</string>
+    <string name="btn_submit">SUBMIT</string>
+    <string name="btn_skip">SKIP</string>
+    <string name="btn_resend_otp">Resend OTP></string>
+
+    <!--Congrats pop-up-->
+    <string name="congrats">Congratulations!!!</string>
+    <string name="account_creation_msg">Your account has been verified. Now lets quickly create your profile</string>
+    <string name="btn_lets_begin">Lets Begin</string>
+
+    <!--Profile Creation Activity-->
+    <string name="country_code">Country Code</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="email_id">Email Address</string>
+    <string name="password">Password</string>
+    <string name="confirmPassword">Confirm password</string>
+    <string name="area_code">Enter your area code</string>
+
+    <!--Tab-->
+    <string name="my_product_tab">My Products</string>
+    <string name="premium_tab">Premium</string>
+
+    <!--Product Detail Activity-->
+    <string name="upload_bill">Upload Bill</string>
+    <string name="appoint">Appoint</string>
+    <string name="product_details">Product Details</string>
+    <string name="chat">Chat</string>
+    <string name="call">Call</string>
+
+
+
+</resources>

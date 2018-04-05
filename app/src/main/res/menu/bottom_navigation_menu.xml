@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_my_product"
+        android:enabled="true"
+        android:icon="@drawable/product_icon"
+        android:title="@string/my_product_tab"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_premium"
+        android:enabled="true"
+        android:icon="@drawable/premium_icon"
+        android:title="@string/premium_tab"
+        app:showAsAction="ifRoom" />
+</menu>

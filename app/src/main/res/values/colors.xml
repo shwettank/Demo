@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="text_color">#616161</color>
+    <color name="button_text_color">#50b892</color>
+    <color name="facebook_app_color">#3b5999</color>
+    <color name="twitter_app_color">#55acee</color>
+    <color name="instagram_app_color">#3f729b</color>
+    <color name="youtube_app_color">#cd201f</color>
+    <color name="whatsapp_app_color">#25D366</color>
+    <color name="tumblr_app_color">#34465d</color>
+    <color name="yahoo_app_color">#410093</color>
+    <color name="black_color">#000000</color>
+    <color name="white_color">#FFFFFF</color>
+    <color name="deepOrange_colorPrimary">#FF5722</color>
+    <color name="deepOrange_colorPrimaryDark">#E64A19</color>
+    <color name="view_divider_color">#BABABA</color>
+    <color name="circular_image_shader">#11dbad</color>
+    <color name="normal_text_color">#818181</color>
+    <color name="active_text_color">#059916</color>
+    <color name="login_color">#A98801</color>
+    <color name="invite_btn_color">#605116</color>
+    <color name="peer_item_name_color">#000000</color>
+    <color name="peer_item_detail_color">#616161</color>
+    <color name="peer_list_item_selected_color">#FFF9E3</color>
+    <color name="peer_list_item_invitation_name_color">#C0C0C0</color>
+    <color name="peer_list_item_invitation_detail_color">#C8C8C8</color>
+    <color name="peer_list_item_invitation_sent_color">#DDD3AC</color>
+    <color name="blood_red">#b31e54</color>
+    <color name="teal">#009688</color>
+
+    <color name="header_color_bg">#454545</color>
+    <color name="top_button_bg">#4e4e4e</color>
+    <color name="top_button_text_color">#d8d8d8</color>
+    <color name="footer_color_bg">#454545</color>
+    <color name="header_text_color">#ffffff</color>
+    <color name="company_title">#2e2e2c</color>
+    <color name="register_content">#626262</color>
+    <color name="footer_text_color">#ddab1e</color>
+    <color name="register_input_text_color">#808080</color>
+    <color name="register_hint_text_color">#c5c5c5</color>
+    <color name="reference_text_color">#ddab1e</color>
+
+    <color name="technician_bg">#ebebeb</color>
+    <color name="technician_content">#626262</color>
+    <color name="technician_input_text_color">#808080</color>
+    <color name="technician_hint_text_color">#c5c5c5</color>
+    <color name="positions_title">#2e2e2c</color>
+    <color name="techcian_highlight_text_color">#ffd55f</color>
+    <color name="bgContentTop">#594691</color>
+    <color name="bgContent">#ffffff</color>
+    <color name="text_default">#a3a3a3</color>
+    <color name="gray">#CCCCCC</color>
+    <color name="trans">#80000000</color>
+
+    <color name="rippleColor">#FFACDEF2</color>
+    <color name="rippleCol">#fccd29</color>
+
+    <!-- Tab -->
+    <color name="colorTextPrimary">#FFFFFF</color>
+    <color name="colorTextDisable">#66FFFFFF</color>
+
+
+    <!--Gradient color-->
+    <color name="gradient_start_color">#61ca92</color>
+    <color name="gradient_end_color">#50b892</color>
+</resources>
