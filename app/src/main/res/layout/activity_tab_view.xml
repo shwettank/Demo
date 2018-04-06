@@ -5,7 +5,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical">
 
-   <!-- <android.support.design.widget.AppBarLayout
+    <!--<android.support.design.widget.AppBarLayout
         android:id="@+id/toolBarLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -42,12 +42,6 @@
         app:layout_constraintHorizontal_bias="0.392"
         app:layout_constraintStart_toStartOf="parent"
         app:menu="@menu/bottom_navigation_menu" />
-    <!--android:background="@color/colorPrimary"
-        app:itemBackground="@color/colorPrimary"
-        app:itemIconTint="@color/white_color"
-        app:itemTextColor="@color/white_color"-->
-
-
 
     <FrameLayout
         android:id="@+id/main_container"

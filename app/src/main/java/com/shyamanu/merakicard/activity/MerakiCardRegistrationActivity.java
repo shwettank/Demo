@@ -54,7 +54,6 @@ public class MerakiCardRegistrationActivity extends AppCompatActivity implements
         edtMerakiCardNo = (EditText) findViewById(R.id.cardNumberEditText);
         btnGenerateOTP = (Button) findViewById(R.id.buttonGenerateOTP);
         btnSkip = (Button) findViewById(R.id.buttonSkip);
-   //     btnSubmit = (Button) findViewById(R.id.buttonSubmit);
     }
 
     /**
@@ -63,7 +62,6 @@ public class MerakiCardRegistrationActivity extends AppCompatActivity implements
     private void addListener() {
         btnGenerateOTP.setOnClickListener(this);
         btnSkip.setOnClickListener(this);
-   //     btnSubmit.setOnClickListener(this);
     }
 
     private void textWatcherListener() {
@@ -142,19 +140,13 @@ public class MerakiCardRegistrationActivity extends AppCompatActivity implements
 
           case R.id.buttonGenerateOTP:
             Intent verifyOTPIntent = new Intent(MerakiCardRegistrationActivity.this,VerifyOTPActivity.class);
-             startActivity(verifyOTPIntent);
-
-              break;
+            startActivity(verifyOTPIntent);
+            break;
 
         case R.id.buttonSkip:
             Intent tabIntent = new Intent(MerakiCardRegistrationActivity.this,TabActivity.class);
             startActivity(tabIntent);
-
-              break;
-
-          /*  case R.id.buttonSubmit:
-              Toast.makeText(getApplicationContext(),"Submit",Toast.LENGTH_SHORT).show();
-              break;*/
+            break;
 
           default:
               break;
