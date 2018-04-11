@@ -25,6 +25,8 @@
         <activity android:name=".activity.RegistrationActivity"/>
         <activity android:name=".activity.TabActivity"/>
         <activity android:name=".activity.ProductDetailActivity"/>
+        <activity android:name=".activity.AddProductActivity"/>
+        <activity android:name=".activity.CategoryActivity"/>
 
 
         <meta-data

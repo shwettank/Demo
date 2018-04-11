@@ -1,9 +1,12 @@
 package com.shyamanu.merakicard.activity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.view.View;
+import android.widget.Button;
 import android.widget.Toast;
 
 import com.google.android.gms.maps.CameraUpdate;
@@ -23,7 +26,7 @@ import com.shyamanu.merakicard.utils.GpsTracker;
  * Created by shwettank.ramteke on 3/29/2018.
  */
 
-public class ProductDetailActivity extends AppCompatActivity {
+public class ProductDetailActivity extends AppCompatActivity implements View.OnClickListener {
 
     // Google Map
     private GoogleMap mMap; // Might be null if Google Play services APK is not available.
@@ -34,6 +37,7 @@ public class ProductDetailActivity extends AppCompatActivity {
     private double destinationLatitude;
     private double destinationLongitude;
     private LatLng curentpoint;
+    private Button btnUploadBill = null;
 
 
     @Override
@@ -43,6 +47,9 @@ public class ProductDetailActivity extends AppCompatActivity {
         setContentView(R.layout.activity_product_detail);
         // initialize components
         initViews();
+
+        // add listener
+        addListener();
 
         try {
             // Loading map
@@ -56,13 +63,17 @@ public class ProductDetailActivity extends AppCompatActivity {
         }
      }
 
+
     /**
      * initialize components
      */
     private void initViews() {
-
+        btnUploadBill = (Button) findViewById(R.id.buttonUploadBill);
     }
 
+    private void addListener() {
+     btnUploadBill.setOnClickListener(this);
+    }
 
     /**
      * function to load map. If map is not created it will create it for you
@@ -136,4 +147,16 @@ public class ProductDetailActivity extends AppCompatActivity {
         initializeMap();
     }
 
+    @Override
+    public void onClick(View v) {
+        switch (v.getId()){
+            case R.id.buttonUploadBill:
+                Intent uploadBillIntent = new Intent(ProductDetailActivity.this,CategoryActivity.class);
+                startActivity(uploadBillIntent);
+                break;
+
+            default:
+                break;
+        }
+    }
 }
